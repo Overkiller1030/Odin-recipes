@@ -11,4 +11,4 @@ Odin-recipes will be a project showcasing HTML foundational skills. These skills
 - Semantic Text
 
 Here is the link:
-[Odin Recipes](Overkiller1030.github.io/Odin-recipes)
+[Odin Recipes](https://Overkiller1030.github.io/Odin-recipes)
