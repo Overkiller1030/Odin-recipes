@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(246, 216, 176);
+}
+
+h1, h2, a:hover {
+  font-family: "Apple Chancery", "Bradley Hand", cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+
+a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+  font-family: cursive;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+img {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+p {
+  font-size: 18px;
+}
+
+
+
