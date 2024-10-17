@@ -1,9 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: rgb(246, 216, 176);
+  background-color: rgb(238, 198, 147);
 }
 
 h1, h2, a:hover {
   font-family: "Apple Chancery", "Bradley Hand", cursive;
+  font-weight: 100;
 }
 
 h1 {
@@ -14,15 +21,15 @@ h2 {
   text-decoration: underline;
 }
 
-
 a {
   font-size: 18px;
   color: black;
   text-decoration: none;
   font-family: cursive;
+  font-weight: 100;
 }
 
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 
@@ -30,11 +37,61 @@ img {
   margin-right: auto;
   margin-left: auto;
   display: block;
+  margin-top: 20px;
+  border: 2px rgb(126, 83, 70) solid;
 }
 
-p {
-  font-size: 18px;
+p, li {
+  font-size: 17px;
 }
 
+.recipe-links {
+  text-align: center;
+}
 
+.link-row, .page {
+  margin: 20px;
+}
 
+.recipe-links li {
+  display: inline;
+  padding: 10px;
+  margin: 10px;
+}
+
+.description, .ingredients, .steps{
+  padding: 10px 20px;
+  margin: 15px 10px 10px;
+
+}
+
+ul, ol {
+  margin-left: 50px;
+}
+
+ul ol {
+  margin-left: 40px;
+}
+
+.center {
+  padding: 20px;
+  display: block;
+  margin: 0 10px 10px;
+  text-align: center;
+}
+
+.back-to-homepage {
+  margin: 20px 20px 0px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.title {
+  margin: 30px;
+}
+
+.page {
+  border: 1px black solid;
+  padding: 20px;
+  background-color: rgb(240, 203, 155);
+}
